@@ -24,6 +24,12 @@
         <url>https://github.com/poolborges/it.sauronsoftware.junique/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
+    
+    <scm>
+        <url>https://github.com/poolborges/it.sauronsoftware.junique</url>
+        <connection>scm:git:git://github.com/poolborges/it.sauronsoftware.junique.git</connection>
+        <developerConnection>scm:git:git@github.com:poolborges/it.sauronsoftware.junique.git</developerConnection>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
