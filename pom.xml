@@ -119,6 +119,11 @@
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-javadoc-plugin</artifactId>
+                            <configuration>
+                                <overview>${basedir}/src/main/config/package.html</overview>
+                                <doctitle>${project.name} ${project.version}</doctitle>
+                                <windowtitle>${project.name} ${project.version}</windowtitle>
+                            </configuration> 
                         </plugin>
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
