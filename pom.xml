@@ -1,43 +1,47 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>it.sauronsoftware</groupId>
-  <artifactId>junique</artifactId>
-  <version>1.0.4</version>
-  <packaging>jar</packaging>
+    <groupId>it.sauronsoftware</groupId>
+    <artifactId>junique</artifactId>
+    <version>1.0.4</version>
+    <packaging>jar</packaging>
 
-  <name>it.sauronsoftware.junique</name>
-  <url>http://www.sauronsoftware.it/projects/junique/</url>
-  <description>
-      The JUnique library can be used to prevent a user to run at the same time more instances of the same Java application.
-      JUnique implements locks and communication channels shared between all the JVM instances launched by the same user. See the documentation for more details.
-  </description>
-  <licenses>
-      <license>
-          <name>GNU Lesser General Public License, version 2.1</name>
-          <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
-      </license>
-  </licenses>
+    <name>it.sauronsoftware.junique</name>
+    <url>http://www.sauronsoftware.it/projects/junique/</url>
+    <description>
+        The JUnique library can be used to prevent a user to run at the same time more instances of the same Java application.
+        JUnique implements locks and communication channels shared between all the JVM instances launched by the same user. See the documentation for more details.
+    </description>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License, version 2.1</name>
+            <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+        </license>
+    </licenses>
 
+    <issueManagement>
+        <url>https://github.com/poolborges/it.sauronsoftware.junique/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <github.global.server>github</github.global.server>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <github.global.server>github</github.global.server>
+    </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
   
-  <build>
-      <plugins>
-          <plugin>
+    <build>
+        <plugins>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.8.1</version>
@@ -56,6 +60,6 @@
                     </execution>
                 </executions> -->
             </plugin>
-      </plugins>
-  </build>
+        </plugins>
+    </build>
 </project>
