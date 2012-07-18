@@ -1,0 +1,15 @@
+You need Apache Maven to build.
+
+See: http://maven.apache.org/
+
+Available targets:
+
+  1. bin - Generates binary files in ${basedir}/target.
+
+  2. jar - Generates ${basedir}/target/junique-${version}.jar file.
+
+  3. doc - Generates javadoc api documentation in ${basedir}/target/site/apidocs.
+
+  4. rel - Generates ${basedir}/cron4j-${version}.zip (full distribution) in ${basedir}. This is the default target.
+
+General build properties can be managed within the pom.xml file.
