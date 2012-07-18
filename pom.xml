@@ -22,6 +22,15 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <email>poolborges[at]gmail.com</email>
+            <name>Paulo Borges</name>
+            <url>https://github.com/poolborges</url>
+            <id>poolborges</id>
+        </developer>
+    </developers>
+
     <issueManagement>
         <url>https://github.com/poolborges/it.sauronsoftware.junique/issues</url>
         <system>GitHub Issues</system>
