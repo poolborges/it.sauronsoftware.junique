@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>it.sauronsoftware.junique - Checkstyle report</title>
+    <link>https://github.com/poolborges/it.sauronsoftware.junique</link>
+    <description>it.sauronsoftware.junique - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2012</copyright>
+    <item>
+      <title>File: 9,
+             Errors: 1147,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html</link>
+      <description>
+        <p>Click <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.MessageHandler.java">it/sauronsoftware/junique/MessageHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.AlreadyLockedException.java">it/sauronsoftware/junique/AlreadyLockedException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.Connection.java">it/sauronsoftware/junique/Connection.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  183
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.ConnectionListener.java">it/sauronsoftware/junique/ConnectionListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.JUnique.java">it/sauronsoftware/junique/JUnique.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  428
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.package-info.java">it/sauronsoftware/junique/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.Message.java">it/sauronsoftware/junique/Message.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  120
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.Server.java">it/sauronsoftware/junique/Server.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  220
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/poolborges/it.sauronsoftware.junique/checkstyle.html#it.sauronsoftware.junique.Lock.java">it/sauronsoftware/junique/Lock.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  120
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+
