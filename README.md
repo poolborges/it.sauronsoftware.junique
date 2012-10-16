@@ -2,7 +2,7 @@
 
 Helps in preventing multiple instances of the same application
 
-This project is a fork of [here](http://http://www.sauronsoftware.it/projects/junique/) 
+This project is a fork of [here](http://www.sauronsoftware.it/projects/junique/) 
 
 
 ## Instructions
