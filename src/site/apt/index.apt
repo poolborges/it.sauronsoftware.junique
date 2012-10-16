@@ -1,0 +1,20 @@
+~~
+~~ Copyright (C) Paulo Borges
+~~
+~~
+
+ -----
+ The Site
+ -----
+ Paulo Borges
+ -----
+
+Project
+
+ This site was created by poolborges with maven-site-plugin:
+
++-----+
+
+mvn site
+
++-----+

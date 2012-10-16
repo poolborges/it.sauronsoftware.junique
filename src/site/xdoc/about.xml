@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+
+    Copyright (C) Paulo Borges
+
+-->
+<document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+    <properties>
+        <title>About</title>
+        <author email="poolborges@maven.apache.org">Paulo Borges</author>
+    </properties>
+
+    <body>
+        <section name="About JUnique">
+            <p>
+                The JUnique library can be used to prevent a user to run at the same time more instances of the same Java application.
+                JUnique implements locks and communication channels shared between all the JVM instances launched by the same user. 
+                See the documentation for more details.
+            </p>
+            <p>Original project site: 
+                <a href="http://www.sauronsoftware.it/projects/junique/">http://www.sauronsoftware.it/projects/junique</a>
+            </p>
+            <p>
+                poolborges site: 
+                <a href="http://poolborges.wordpress.com"> http://poolborges.wordpress.com/ </a>
+            </p>
+        </section>
+    </body>
+</document>
