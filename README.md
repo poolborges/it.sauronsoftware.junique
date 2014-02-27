@@ -17,6 +17,28 @@ This project is a fork of [here](http://www.sauronsoftware.it/projects/junique/)
 Developer API documentation [here](http://poolborges.github.com/it.sauronsoftware.junique/)
 Working code examples in examples
 
+## How to add to Maven POM
+
+Add a repository configuration to my Maven Repo
+```
+<repository>
+    <id>poolborges-github-thirdparty</id>
+    <name>poolborges-github</name>
+    <url>https://github.com/poolborges/maven/raw/master/thirdparty/</url>
+</repository>
+```
+
+Add dependency
+```
+<dependency>
+    <groupId>it.sauronsoftware</groupId>
+    <artifactId>junique</artifactId>
+    <version>1.0.4</version>
+    <type>jar</type>
+</dependency>
+```
+
+
 
 ## How to build
 
