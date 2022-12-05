@@ -1,0 +1,112 @@
+// Global settings
+:ascii-ids:
+:encoding: UTF-8
+:lang: pt_PT
+:icons: font
+:toc:
+:toc-placement!:
+:toclevels: 3
+:numbered:
+:stem:
+
+ifdef::env-github[]
+:imagesdir: https://raw.githubusercontent.com/poolborges/it.sauronsoftware.junique/master/docs/images/
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:badges:
+:doc-dir: https://github.com/poolborges/it.sauronsoftware.junique/master/docs
+endif::[]
+
+[[doc]]
+= JUnique
+:author: Copyright (c) Team.
+:revnumber: 2022-12-05
+:revdate: {last-update-label} {docdatetime}
+:version-label!:
+
+
+ifdef::badges[]
+== Build status
+
+image:https://img.shields.io/badge/License-LGPLv2.1-blue.svg["License: LGPL v2.1", link="https://www.gnu.org/licenses/lgpl-2.1.en.html"]
+image:https://github.com/poolborges/it.sauronsoftware.junique/actions/workflows/build.yml/badge.svg["Build Status", link="https://github.com/poolborges/it.sauronsoftware.junique/actions/workflows/build.yml"]
+image:https://scan.coverity.com/projects/27093/badge.svg["Coverity Scan Build Status", link="https://scan.coverity.com/projects/poolborges-it-sauronsoftware-junique"]
+
+
+== Release and Download
+
+image:https://img.shields.io/github/release-date-pre/poolborges/it.sauronsoftware.junique.svg["GitHub pre-release", link="https://github.com/poolborges/it.sauronsoftware.junique/releases"]
+image:https://img.shields.io/github/release/poolborges/it.sauronsoftware.junique.svg["GitHub release", link="https://github.com/poolborges/it.sauronsoftware.junique/releases"]
+image:https://img.shields.io/github/downloads/poolborges/it.sauronsoftware.junique/total["GitHub all releases", link="https://github.com/poolborges/it.sauronsoftware.junique/releases"]
+
+endif::[]
+
+
+== About
+
+
+Helps in preventing multiple instances of the same application
+
+This project is a fork of http://www.sauronsoftware.it/projects/junique/
+
+
+== Instructions
+
+* Add the JUnique JAR to your application CLASSPATH and enjoy it.
+* Supported platforms: Java 1.6 or later
+
+
+== Documentation
+
+Developer API documentation http://poolborges.github.com/it.sauronsoftware.junique/
+
+
+== How to add to Maven POM
+
+Add a repository configuration to my Maven Repo
+```
+<repository>
+    <id>poolborges-github-thirdparty</id>
+    <name>poolborges-github</name>
+    <url>https://github.com/poolborges/maven/raw/master/thirdparty/</url>
+</repository>
+```
+
+Add dependency
+```
+<dependency>
+    <groupId>it.sauronsoftware</groupId>
+    <artifactId>junique</artifactId>
+    <version>1.0.4</version>
+    <type>jar</type>
+</dependency>
+```
+
+
+== How to build
+
+See BUILD.txt
+
+
+.Maven install
+----
+mvn clean install
+
+
+.Maven site
+----
+mvn site
+----
+
+
+== License
+
+See LICENSE.txt
+
+
+== Changelog
+
+See CHANGELOG.txt

@@ -2,7 +2,7 @@ You need Apache Maven to build.
 
 See: http://maven.apache.org/
 
-Available goals: this is not correct
+Available goals:
 
   1. install - Generates binary files in ${basedir}/target.
   2. jar - Generates ${basedir}/target/junique-${version}.jar file.
