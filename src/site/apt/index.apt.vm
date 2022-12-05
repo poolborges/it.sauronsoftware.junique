@@ -1,0 +1,18 @@
+~~
+~~ Copyright (C) Paulo Borges
+~~
+~~
+
+ -----
+ Introduction
+ -----
+ Paulo Borges
+ -----
+
+Welcome to ${project.name}!
+
+ The JUnique library can be used to prevent a user to run at the same time more instances of the same Java application. JUnique implements locks and communication channels shared between all the JVM instances launched by the same user. See the documentation for more details. for of http://www.sauronsoftware.it/projects/junique/ 
+
++-----+
+mvn site
++-----+

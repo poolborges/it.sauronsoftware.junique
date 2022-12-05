@@ -4,10 +4,11 @@
 
 -->
 
-<project xmlns="http://maven.apache.org/DECORATION/1.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
-
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd"> 
+    
+    <edit>${project.scm.url}</edit> 
+     
     <bannerLeft>
         <name>${project.name}</name>
         <src>images/PoolBorges-logo-small.png</src>
@@ -17,7 +18,7 @@
     <skin>
         <groupId>org.apache.maven.skins</groupId>
         <artifactId>maven-fluido-skin</artifactId>
-        <version>1.2.1</version>
+        <version>1.11.1</version>
     </skin>
     <custom>
         <fluidoSkin>

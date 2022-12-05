@@ -8,7 +8,7 @@
           xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
     <properties>
         <title>About</title>
-        <author email="poolborges@maven.apache.org">Paulo Borges</author>
+        <author email="poolborges@hotmail.com">Paulo Borges</author>
     </properties>
 
     <body>
@@ -23,7 +23,7 @@
             </p>
             <p>
                 poolborges site: 
-                <a href="http://poolborges.wordpress.com"> http://poolborges.wordpress.com/ </a>
+                <a href="https://poolborges.github.io">https://poolborges.github.io</a>
             </p>
         </section>
     </body>
