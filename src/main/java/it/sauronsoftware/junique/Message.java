@@ -82,14 +82,14 @@ class Message {
 			outputStream.write(0);
 			outputStream.flush();
 		} else {
+			// Message block.
+			byte[] b = message.getBytes("UTF-8");
 			// Message length.
-			int length = message.length();
+			int length = b.length;
 			// The length block.
 			byte[] lenght = intToByteArray(length);
 			outputStream.write(lenght);
 			outputStream.flush();
-			// Message block.
-			byte[] b = message.getBytes("UTF-8");
 			outputStream.write(b);
 			outputStream.flush();
 		}
